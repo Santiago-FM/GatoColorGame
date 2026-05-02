@@ -150,7 +150,12 @@ class _SetupScreenState extends State<SetupScreen> {
                           style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, letterSpacing: 2)
                         ),
                       ),
-                    )
+                    ),
+                    const SizedBox(height: 24),
+                    const Text(
+                      "By Santiago Fallas ©2026",
+                      style: TextStyle(fontSize: 12, color: Colors.blueGrey, fontWeight: FontWeight.bold),
+                    ),
                   ],
                 ),
               ),
